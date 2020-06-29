@@ -1,0 +1,18 @@
+Package: ContinualMonitor
+Type: Package
+Title: Functions in this package help decide stopping rules in Phase 1 and Phase 2 clinical trials
+Version: 0.1.0
+Author: Wei Wei
+Maintainer: Wei Wei<wei.wei@yale.edu>
+Description: The package includes 4 functions that  (1) efficacy stop ,(2) futility stop ,(3) efficacy +futility stop ,(4) efficacy+futility+toxicity.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R(>= 3.0.1)
+Imports: foreach,stats,ExomeDepth 
+RoxygenNote: 7.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
